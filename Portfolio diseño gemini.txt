@@ -1,0 +1,330 @@
+import React, { useState, useEffect, useRef } from 'react';
+import { motion, AnimatePresence, useScroll, useTransform } from 'framer-motion';
+import { 
+  ChevronRight, 
+  Ruler, 
+  Layers, 
+  Cpu, 
+  MessageSquare, 
+  ArrowRight,
+  Maximize2,
+  Box,
+  Compass,
+  Monitor,
+  Hammer,
+  DraftingCompass
+} from 'lucide-react';
+
+/**
+ * Z_DESIGN96 - PORTFOLIO DE INGENIERÍA DE DISEÑO
+ * Estética: Industrial Dark / Luxury Engineering
+ */
+
+const theme = {
+  colors: {
+    bg: '#0F0F10',
+    card: '#1A1A1C',
+    steel: '#2F3236',
+    titanium: '#7E848B',
+    oak: '#8A6A4A',
+    brass: '#C2A574',
+    accent: '#4A90E2',
+    white: '#F5F5F5'
+  }
+};
+
+// --- Componentes de Interfaz ---
+
+const SectionTitle = ({ title, subtitle, number }) => (
+  <div className="mb-20">
+    <div className="flex items-center gap-4 mb-3">
+      <span className="text-[10px] font-mono text-[#4A90E2] tracking-[0.3em]">{number}</span>
+      <div className="h-[1px] w-12 bg-[#4A90E2]/40"></div>
+    </div>
+    <h2 className="text-4xl md:text-5xl font-light tracking-tighter text-white mb-6 uppercase leading-none">{title}</h2>
+    <p className="text-[#7E848B] max-w-xl font-light leading-relaxed border-l border-[#2F3236] pl-6">
+      {subtitle}
+    </p>
+  </div>
+);
+
+const TechnicalGrid = () => (
+  <div className="absolute inset-0 opacity-[0.03] pointer-events-none z-0" 
+       style={{ backgroundImage: 'radial-gradient(#4A90E2 1px, transparent 1px)', backgroundSize: '40px 40px' }} />
+);
+
+// --- Navegación ---
+const Navbar = () => {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY > 50);
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  return (
+    <nav className={`fixed top-0 w-full z-50 px-6 md:px-12 py-6 transition-all duration-500 ${scrolled ? 'bg-[#0F0F10]/95 backdrop-blur-md py-4 border-b border-[#2F3236]' : 'bg-transparent'}`}>
+      <div className="max-w-7xl mx-auto flex justify-between items-center">
+        <div className="flex flex-col">
+          <span className="text-xl font-bold tracking-[0.3em] text-white">Z_DESIGN96</span>
+          <span className="text-[8px] font-mono text-[#4A90E2] tracking-[0.4em] uppercase">Estudio de Ingeniería de Diseño</span>
+        </div>
+        
+        <div className="hidden md:flex items-center gap-10 text-[10px] font-mono uppercase tracking-widest text-[#7E848B]">
+          <a href="#projects" className="hover:text-white transition-colors">Proyectos</a>
+          <a href="#process" className="hover:text-white transition-colors">Metodología</a>
+          <a href="#filter" className="bg-[#4A90E2] text-white px-5 py-2.5 rounded-sm hover:bg-white hover:text-[#0F0F10] transition-all duration-300">
+            Iniciar Proyecto
+          </a>
+        </div>
+      </div>
+    </nav>
+  );
+};
+
+// --- Hero Section ---
+const Hero = () => {
+  return (
+    <section className="relative h-screen flex flex-col justify-center items-center px-6 overflow-hidden bg-[#0F0F10]">
+      <TechnicalGrid />
+      
+      {/* Guías visuales de plano */}
+      <div className="absolute top-1/4 left-0 w-full h-[1px] bg-[#2F3236]/30" />
+      <div className="absolute bottom-1/4 left-0 w-full h-[1px] bg-[#2F3236]/30" />
+      <div className="absolute left-1/4 top-0 h-full w-[1px] bg-[#2F3236]/30" />
+      <div className="absolute right-1/4 top-0 h-full w-[1px] bg-[#2F3236]/30" />
+
+      <motion.div 
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        className="relative z-10 text-center max-w-5xl"
+      >
+        <span className="text-[#4A90E2] font-mono text-[10px] tracking-[0.6em] uppercase mb-8 block">
+          Precisión. Estética. Función.
+        </span>
+        
+        <h1 className="text-5xl md:text-8xl font-light text-white tracking-tighter leading-[0.9] mb-10 uppercase">
+          Diseño <br /> <span className="font-bold text-[#F5F5F5]">Industrial</span> <br /> Premium
+        </h1>
+
+        <p className="text-[#7E848B] text-base md:text-lg max-w-2xl mx-auto font-light leading-relaxed mb-12">
+          Mobiliario a medida, interiorismo de lujo y shop fitting desarrollados bajo una rigurosa lógica técnica para espacios que exigen perfección.
+        </p>
+
+        <div className="flex flex-col sm:flex-row gap-6 justify-center">
+          <a href="#projects" className="group flex items-center gap-3 border border-[#2F3236] px-10 py-4 text-white text-[10px] font-mono uppercase tracking-widest hover:border-[#4A90E2] transition-all">
+            Explorar Portafolio <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+          </a>
+        </div>
+      </motion.div>
+
+      <div className="absolute bottom-10 left-10 hidden md:flex flex-col gap-2 font-mono text-[9px] text-[#2F3236]">
+        <span>REF: 96-DESIGN-CORE</span>
+        <span>LAT: 40.4168° N</span>
+        <span>LONG: 3.7038° W</span>
+      </div>
+    </section>
+  );
+};
+
+// --- Portfolio ---
+const ProjectCard = ({ project }) => {
+  const [hover, setHover] = useState(false);
+
+  return (
+    <motion.div 
+      className="relative mb-16"
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
+    >
+      <div className="relative aspect-[16/10] overflow-hidden bg-[#1A1A1C] border border-[#2F3236] group">
+        <img 
+          src={project.image} 
+          alt={project.title}
+          className="w-full h-full object-cover grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-1000 scale-105 group-hover:scale-100"
+        />
+        
+        <AnimatePresence>
+          {hover && (
+            <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className="absolute inset-0 bg-[#0F0F10]/40 backdrop-blur-[2px] p-8 flex flex-col justify-between"
+            >
+              <div className="flex justify-between items-start">
+                <div className="bg-[#4A90E2] text-white p-2">
+                  <Ruler className="w-4 h-4" />
+                </div>
+                <div className="text-right font-mono text-[9px] text-white/70 uppercase">
+                  Data_Log: {project.id} <br />
+                  Material: {project.material}
+                </div>
+              </div>
+              <div className="border-t border-white/20 pt-4">
+                <span className="text-[10px] text-[#4A90E2] font-mono uppercase">Especificación Técnica Verificada</span>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+
+      <div className="mt-6 flex justify-between items-end">
+        <div>
+          <h3 className="text-xl text-white font-medium uppercase tracking-tight">{project.title}</h3>
+          <p className="text-[10px] font-mono text-[#7E848B] uppercase tracking-[0.2em] mt-1">{project.category}</p>
+        </div>
+        <span className="text-[10px] font-mono text-[#2F3236]">{project.year}</span>
+      </div>
+    </motion.div>
+  );
+};
+
+const Projects = () => {
+  const items = [
+    { id: 'Z-01', title: "Sistema Lounge X1", category: "Mobiliario Premium", material: "Roble & Acero", year: "2024", image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200" },
+    { id: 'Z-02', title: "Retail Hub Concept", category: "Shop Fitting", material: "Aluminio CNC", year: "2023", image: "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&q=80&w=1200" },
+    { id: 'Z-03', title: "Estructura Penthouse", category: "Interiorismo Técnico", material: "Vidrio & Grafito", year: "2024", image: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&q=80&w=1200" },
+  ];
+
+  return (
+    <section id="projects" className="py-32 px-6 md:px-12 bg-[#0F0F10]">
+      <div className="max-w-7xl mx-auto">
+        <SectionTitle 
+          number="01" 
+          title="Proyectos Seleccionados" 
+          subtitle="Una ejecución impecable donde la ingeniería mecánica se encuentra con la estética espacial."
+        />
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12">
+          {items.map((p, i) => <ProjectCard key={i} project={p} />)}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+// --- Filtro de Élite (Chat cualificador) ---
+const EliteFilter = () => {
+  const [step, setStep] = useState(0);
+  const [chat, setChat] = useState([]);
+  const [loading, setLoading] = useState(false);
+
+  const steps = [
+    { q: "¿En qué área se enfoca su proyecto?", opts: ["Mobiliario a Medida", "Shop Fitting / Retail", "Interiorismo Técnico"] },
+    { q: "¿Cuál es el rango de presupuesto estimado?", opts: ["5k€ - 15k€", "15k€ - 50k€", "Proyectos > 50k€"] },
+    { q: "Entendido. ¿Para cuándo requiere la entrega?", opts: ["Urgente (< 1 mes)", "Plazo estándar (3-6 meses)", "Planificación futura"] },
+  ];
+
+  const handleSelect = (opt) => {
+    setChat([...chat, { type: 'user', text: opt }]);
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+      setStep(step + 1);
+    }, 800);
+  };
+
+  return (
+    <section id="filter" className="py-32 px-6 md:px-12 bg-[#0F0F10] border-t border-[#2F3236]">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+        <div>
+          <SectionTitle 
+            number="02" 
+            title="Cualificación de Proyectos" 
+            subtitle="Filtramos cada solicitud para asegurar que el nivel de exigencia técnica coincide con nuestra capacidad de producción premium."
+          />
+          <div className="space-y-4 font-mono text-[10px] text-[#7E848B]">
+            <div className="flex items-center gap-3">
+              <Cpu className="w-4 h-4 text-[#4A90E2]" /> STATUS: OPERATIVO
+            </div>
+            <div className="flex items-center gap-3">
+              <Compass className="w-4 h-4 text-[#4A90E2]" /> MODO: FILTRADO DE ÉLITE
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-[#1A1A1C] border border-[#2F3236] p-8 relative overflow-hidden min-h-[450px] flex flex-col justify-between">
+          <div className="space-y-6 overflow-y-auto max-h-[300px] pr-2">
+            <div className="bg-[#2F3236] p-4 text-[13px] text-white/90 font-light max-w-[85%] self-start">
+              Bienvenido al sistema de acceso Z_DESIGN96. Para optimizar nuestra consultoría, defina brevemente su necesidad.
+            </div>
+            
+            {chat.map((msg, i) => (
+              <div key={i} className={`p-4 text-[13px] font-light max-w-[85%] ${msg.type === 'user' ? 'bg-[#4A90E2] text-white ml-auto' : 'bg-[#2F3236] text-white/90'}`}>
+                {msg.text}
+              </div>
+            ))}
+
+            {loading && <div className="text-[10px] font-mono text-[#4A90E2] animate-pulse">ANALIZANDO DATOS...</div>}
+
+            {step < steps.length && !loading && (
+              <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-4 pt-4">
+                <div className="text-[12px] text-[#7E848B] font-mono uppercase mb-4">{steps[step].q}</div>
+                <div className="flex flex-wrap gap-2">
+                  {steps[step].opts.map((o, i) => (
+                    <button 
+                      key={i} 
+                      onClick={() => handleSelect(o)}
+                      className="border border-[#2F3236] px-4 py-2 text-[11px] font-mono text-white/60 hover:border-[#4A90E2] hover:text-[#4A90E2] transition-all"
+                    >
+                      {o}
+                    </button>
+                  ))}
+                </div>
+              </motion.div>
+            )}
+
+            {step === steps.length && (
+              <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="bg-[#4A90E2]/10 border border-[#4A90E2] p-6 text-center">
+                <div className="text-[#4A90E2] text-[12px] font-mono mb-2 uppercase tracking-widest">Aptitud Técnica Confirmada</div>
+                <p className="text-white/80 text-[13px] font-light">Joan recibirá un briefing detallado. Nos pondremos en contacto en 24h.</p>
+                <button className="mt-6 w-full py-3 bg-[#4A90E2] text-white text-[10px] font-mono uppercase tracking-widest hover:bg-white hover:text-[#0F0F10] transition-all">Finalizar Contacto</button>
+              </motion.div>
+            )}
+          </div>
+
+          <div className="mt-8 pt-4 border-t border-[#2F3236] flex justify-between items-center font-mono text-[8px] text-[#2F3236]">
+            <span>SYSTEM_V.4.0</span>
+            <span>ENCRYPTED_LINK_ACTIVE</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+// --- Footer ---
+const Footer = () => (
+  <footer className="py-20 px-6 md:px-12 bg-[#0F0F10] border-t border-[#2F3236]">
+    <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-10">
+      <div className="flex flex-col items-center md:items-start">
+        <span className="text-xl font-bold tracking-[0.3em] text-white">Z_DESIGN96</span>
+        <span className="text-[8px] font-mono text-[#7E848B] tracking-widest mt-1 uppercase">Diseño Industrial | Interiorismo | Mobiliario</span>
+      </div>
+      
+      <div className="flex gap-8 text-[10px] font-mono uppercase tracking-widest text-[#7E848B]">
+        <a href="#" className="hover:text-[#4A90E2] transition-colors">Instagram</a>
+        <a href="#" className="hover:text-[#4A90E2] transition-colors">LinkedIn</a>
+        <a href="#" className="hover:text-[#4A90E2] transition-colors">Email</a>
+      </div>
+
+      <div className="text-[9px] font-mono text-[#2F3236]">
+        &copy; {new Date().getFullYear()} Z_DESIGN96. TODOS LOS DERECHOS RESERVADOS.
+      </div>
+    </div>
+  </footer>
+);
+
+export default function App() {
+  return (
+    <div className="bg-[#0F0F10] min-h-screen text-white font-sans selection:bg-[#4A90E2] selection:text-white">
+      <Navbar />
+      <Hero />
+      <Projects />
+      <EliteFilter />
+      <Footer />
+    </div>
+  );
+}
