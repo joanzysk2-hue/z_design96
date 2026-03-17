@@ -4,7 +4,7 @@ export const Navbar = () => {
   return (
     <nav className="glass-panel" style={{ position: 'fixed', width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '15px 5%', zIndex: 100 }}>
       <Link to="/" style={{ fontWeight: '800', letterSpacing: '4px', fontSize: '1.2rem', textDecoration: 'none', color: 'inherit' }}>
-        <span className="text-gradient">Z_DESIGN</span>
+        <span className="text-gradient">Z DESIGN</span>
       </Link>
       <div style={{ display: 'flex', gap: '30px', alignItems: 'center' }}>
         <div className="mono hidden md:block" style={{ opacity: 0.8 }}>EST. 2014</div>
