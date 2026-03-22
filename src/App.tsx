@@ -22,7 +22,7 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter basename="/z_design">
+    <BrowserRouter basename="/z_design96">
       <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
         <Navbar />
         
