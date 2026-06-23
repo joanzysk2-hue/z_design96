@@ -50,27 +50,60 @@ export const ProjectDetail = () => {
         </div>
       </div>
 
-      <div style={{ marginTop: '100px' }}>
-        <div className="mono" style={{ marginBottom: '40px', fontSize: '0.8rem' }}>ARCHIVOS RELACIONADOS // GALERÍA</div>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '20px' }}>
-          {/* Aquí simulamos los otros archivos de la carpeta */}
-          {[1, 2, 3].map((i) => (
-            <div key={i} className="glass-panel" style={{ 
-              aspectRatio: '1', 
-              background: '#1a1a1c', 
-              borderRadius: '4px', 
-              overflow: 'hidden',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              opacity: 0.7,
-              border: '1px solid rgba(255,255,255,0.05)'
-            }}>
-              <span className="mono" style={{ fontSize: '0.6rem', opacity: 0.3 }}>IMG_REF_0{i}.JPG</span>
-            </div>
-          ))}
+      {/* Galería Visual */}
+      {(project.gallery && project.gallery.length > 0) ? (
+        <div style={{ marginTop: '100px' }}>
+          <div className="mono" style={{ marginBottom: '40px', fontSize: '0.8rem' }}>ARCHIVOS RELACIONADOS // GALERÍA</div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '20px' }}>
+            {project.gallery.map((imgUrl, i) => (
+              <div key={i} className="glass-panel" style={{ 
+                aspectRatio: '1', 
+                background: '#1a1a1c', 
+                borderRadius: '4px', 
+                overflow: 'hidden',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                opacity: 0.9,
+                border: '1px solid rgba(255,255,255,0.05)'
+              }}>
+                <img src={imgUrl} alt={`Galería ${i+1}`} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
+      ) : null}
+
+      {/* Documentos */}
+      {(project.documents && project.documents.length > 0) ? (
+        <div style={{ marginTop: '60px' }}>
+          <div className="mono" style={{ marginBottom: '30px', fontSize: '0.8rem' }}>DOCUMENTACIÓN TÉCNICA</div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
+            {project.documents.map((doc, i) => (
+              <a 
+                key={i} 
+                href={doc.url} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="glass-panel" 
+                style={{
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                  padding: '20px',
+                  textDecoration: 'none',
+                  color: 'inherit',
+                  border: '1px solid rgba(255,255,255,0.1)',
+                  borderRadius: '4px',
+                  transition: 'background 0.3s'
+                }}
+              >
+                <span className="mono" style={{ fontSize: '0.9rem' }}>{doc.name.toUpperCase()}</span>
+                <span className="mono" style={{ opacity: 0.5 }}>→</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      ) : null}
     </section>
   );
 };

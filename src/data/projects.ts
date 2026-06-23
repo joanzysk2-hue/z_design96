@@ -6,6 +6,8 @@ export interface Project {
   img: string;
   description: string;
   isHero?: boolean;
+  gallery?: string[];
+  documents?: { name: string, url: string }[];
 }
 
 export const projects: Project[] = [
