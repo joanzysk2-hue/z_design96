@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -27,7 +27,7 @@ function App() {
 
   return (
     <AuthProvider>
-      <BrowserRouter basename="/z_design96">
+      <HashRouter>
         <Routes>
           {/* ── Rutas públicas (con Navbar y Footer) ── */}
           <Route element={
@@ -57,7 +57,7 @@ function App() {
             <ProtectedRoute><ProjectEditor /></ProtectedRoute>
           } />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </AuthProvider>
   );
 }
