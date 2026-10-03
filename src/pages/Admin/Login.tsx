@@ -14,8 +14,18 @@ export function AdminLogin() {
     setError('');
     try {
       await signIn(email, password);
-    } catch {
-      setError('Credenciales incorrectas. Verifica tu email y contraseña.');
+    } catch (err: unknown) {
+      const msg = err instanceof Error ? err.message : 'Error de acceso';
+      // Traducir mensajes comunes de Supabase al español
+      if (msg.includes('Invalid login credentials')) {
+        setError('Credenciales incorrectas. Verifica tu email y contraseña en Supabase.');
+      } else if (msg.includes('Email not confirmed')) {
+        setError('Debes confirmar tu email antes de acceder. Revisa tu bandeja de entrada.');
+      } else if (msg.includes('User not found')) {
+        setError('No existe ningún usuario con este email. Créalo primero en Supabase.');
+      } else {
+        setError(`Error: ${msg}`);
+      }
     } finally {
       setLoading(false);
     }
