@@ -1,12 +1,20 @@
-import { useState, type FormEvent } from 'react';
+import { useState, useEffect, type FormEvent } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 
 export function AdminLogin() {
-  const { signIn } = useAuth();
+  const { session, signIn } = useAuth();
+  const navigate = useNavigate();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    if (session) {
+      navigate('/admin', { replace: true });
+    }
+  }, [session, navigate]);
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
