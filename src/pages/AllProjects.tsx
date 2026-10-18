@@ -75,9 +75,24 @@ export const AllProjects = () => {
           onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
             <div style={{ height: '200px', background: '#1a1a1c', borderRadius: '2px', marginBottom: '25px', overflow: 'hidden', backgroundImage: `url('${project.img}')`, backgroundSize: 'cover', backgroundPosition: 'center' }} />
             <div className="mono" style={{ color: 'var(--accent-cyan)', fontSize: '0.8rem', marginBottom: '10px' }}>{project.id} // {project.year}</div>
-            <h3 style={{ fontSize: '1.5rem', marginBottom: '15px', color: 'var(--text-primary)' }}>{project.title.toUpperCase()}</h3>
-            <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', lineHeight: '1.6', marginBottom: '20px' }}>{project.description}</p>
-            <div className="mono" style={{ fontSize: '0.7rem', opacity: 0.5 }}>CATEGORÍA: {project.category.toUpperCase()}</div>
+            <h3 style={{ fontSize: '1.4rem', marginBottom: '15px', color: 'var(--text-primary)', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{project.title.toUpperCase()}</h3>
+            <p style={{
+              color: 'var(--text-secondary)',
+              fontSize: '0.88rem',
+              lineHeight: '1.6',
+              marginBottom: '20px',
+              minHeight: '4.2em',
+              display: '-webkit-box',
+              WebkitLineClamp: 3,
+              WebkitBoxOrient: 'vertical',
+              overflow: 'hidden',
+              textOverflow: 'ellipsis'
+            }}>
+              {project.description.length > 130
+                ? `${project.description.slice(0, 130).trim()}...`
+                : project.description}
+            </p>
+            <div className="mono" style={{ fontSize: '0.7rem', opacity: 0.5, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>CATEGORÍA: {project.category.toUpperCase()}</div>
           </div>
         ))}
       </div>
