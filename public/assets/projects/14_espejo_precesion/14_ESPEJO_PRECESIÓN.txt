@@ -1,0 +1,12 @@
+REF: E-14 // 2026
+14_ESPEJO_PRECESIÓN 
+CATEGORÍA: RECUPERACIÓN MATERIAL Y OBJETO COTIDIANO
+Este proyecto nace de la experimentación espontánea en el taller, utilizando sobrantes de material para crear un objeto de uso diario. El diseño explora la relación entre la geometría pura del círculo y la calidez de la madera recuperada, transformando retazos en un accesorio funcional de pequeña escala.
+> RESUMEN DE CARPETA
+> El objeto se compone de un marco circular fabricado en madera terciada, tratado con un barniz color caoba que resalta las vetas naturales y otorga una estética clásica y protegida. En su interior, alberga un espejo de 12 cm de diámetro. La pieza destaca por su sencillez constructiva y la optimización de recursos, convirtiendo lo que sería desperdicio en un producto terminado de terminación artesanal.
+> 
+SOFTWARE Y HERRAMIENTAS // GALERÍA
+Prototipado rápido en taller, técnicas de corte circular en madera y tratamiento de superficies con barnices pigmentados.
+Fusion 360, Keyshot
+Nota: He registrado este espejo como una variante de "uso cotidiano" diferenciándolo del conceptual (Horca) y el arquitectónico. ¿Tienes más proyectos derivados de experimentación con materiales?
+

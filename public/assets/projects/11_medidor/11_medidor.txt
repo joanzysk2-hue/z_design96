@@ -1,0 +1,8 @@
+﻿REF: M-11 // 2021
+11_MEDIDOR_NORMATIVA_COMPETICION
+CATEGORÍA: DISEÑO INDUSTRIAL Y COMPETICIÓN
+Dispositivo de medición técnica bajo normativa oficial para verificación y control dimensional en competición deportiva.
+RESUMEN DE CARPETA
+Desarrollo de instrumento de verificación mecánica con alta precisión geométrica y ergonomía de uso para jueces y comisarios técnicos.
+SOFTWARE Y HERRAMIENTAS // GALERÍA
+Diseño paramétrico en Fusion 360 y fabricación de componentes en taller.

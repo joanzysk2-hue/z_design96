@@ -1,0 +1,18 @@
+REF: D-08 // 2026
+08_ESCRITORIO_PIANO_MULTIFUNCIÓN
+CATEGORÍA: DISEÑO PARA ESPACIOS REDUCIDOS Y MOBILIARIO HÍBRIDO
+Este proyecto responde a la necesidad de maximizar la utilidad en áreas pequeñas, integrando un espacio de estudio y una estación para piano en un solo conjunto mobiliario. El diseño busca resolver la problemática de convivir con múltiples actividades creativas en metros cuadrados limitados sin comprometer la funcionalidad de ninguna de ellas.
+CONCEPTO Y FUNCIONALIDAD
+La propuesta se centra en una estética minimalista y utilitaria que permite una transición fluida entre las tareas de oficina y la práctica musical:
+Integración Dual: El mueble combina un escritorio superior estable con un soporte para piano que se aloja de manera compacta bajo la superficie principal.
+Movilidad Independiente: El sistema está diseñado para que el piano pueda desplazarse de forma autónoma por la estancia si es necesario, manteniendo la coherencia visual con el resto de la estructura.
+Diseño Geométrico: Se optó por una estructura de líneas sencillas y monocromáticas para asegurar que el volumen no sobrecargue visualmente el espacio reducido.
+CARACTERÍSTICAS TÉCNICAS
+Estructura: Armazón robusto en color negro que soporta la superficie de trabajo blanca, creando un contraste limpio.
+Almacenamiento: Incluye estanterías laterales integradas en el módulo principal para organizar materiales de estudio o partituras.
+Complementos: El diseño contempla una organización vertical mediante paneles perforados y estantes superiores delgados para optimizar el uso del muro adyacente.
+HABILIDADES Y HERRAMIENTAS APLICADAS
+El desarrollo integral del escritorio multifunción abarcó desde la concepción técnica hasta la fabricación:
+Modelado y Visualización: Uso de Autodesk Fusion 360 para el diseño estructural y KeyShot para el renderizado fotorrealista.
+Carpintería y Grabado: Ejecución técnica en madera con detalles de grabado para personalizar la pieza.
+

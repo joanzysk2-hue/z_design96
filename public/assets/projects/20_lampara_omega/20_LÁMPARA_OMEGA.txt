@@ -1,0 +1,12 @@
+REF: L-20 // 2026
+20_LÁMPARA_OMEGA
+CATEGORÍA: DISEÑO DE AUTOR Y ARTESANÍA EN MADERA CURVADA
+Proyecto de iluminación de pequeño formato que explora los límites mecánicos y el radio crítico de curvatura en maderas nobles. La propuesta fusiona el trabajo artesanal de carpintería con el diseño contemporáneo, logrando una pieza compacta donde la pantalla de madera natural actúa como difusor orgánico.
+RESUMEN DE CARPETA La luminaria fue desarrollada combinando una estructura en madera de caoba maciza, acentos conductores en cobre y una pantalla de chapa natural de lenga. El núcleo técnico radicó en llevar la chapa de lenga al límite elástico de su geometría sin comprometer la solidez del conjunto. Para lograr la curvatura deseada en un formato reducido y evitar la fragilidad del material, se implementó un proceso de moldeado mediante vapor de agua y fijación con laca caliente, garantizando la rigidez estructural de la pantalla.
+ESPECIFICACIONES TÉCNICAS
+Materialidad: Madera de caoba maciza, chapa natural de lenga y detalles en cobre.
+Técnica de Conformado: Curvado artesanal mediante vaporización de agua y curado con laca caliente.
+Desafío Mecánico: Maximización del ángulo de curvatura en formato compacto sin pérdida de resistencia.
+Tipología: Luminaria de mesa / Objeto de autor.
+SOFTWARE Y HERRAMIENTAS // GALERÍA
+Modelado paramétrico en Autodesk Fusion 360, renderizado fotorrealista y estudio de materialidad en KeyShot, combinado con técnicas tradicionales de ebanistería y carpintería experimental

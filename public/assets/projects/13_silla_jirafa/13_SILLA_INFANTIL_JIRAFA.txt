@@ -1,0 +1,38 @@
+REF: S-13 // 2026
+13_SILLA_INFANTIL_JIRAFA
+CATEGORÍA: DISEÑO PARAMÉTRICO Y FABRICACIÓN DIGITAL CNC
+Proyecto de mobiliario infantil basado en el estudio de métodos productivos y limitaciones materiales. El desafío consistió en diseñar una pieza funcional a partir de un único tablero de MDF de 10 mm (1500 x 1500 mm), utilizando un sistema de corte CNC de 2 ejes (X e Y) y eliminando por completo cualquier sistema de anclaje o herraje externo.
+CONCEPTO Y MORFOLOGÍA
+La silla "Jirafa" nace de un análisis morfológico inspirado en los espacios de juego y la fauna:
+
+Abstracción Animal: La distribución de fuerzas y los cruces diagonales simulan la estructura corporal de una jirafa, ofreciendo una vista lateral lúdica que funciona tanto como asiento como elemento decorativo.
+
+
+Superficies Flexibles: Mediante patrones de corte específicos en el MDF, se logró generar una superficie flexible en el asiento y el respaldo, garantizando la comodidad ergonómica sin necesidad de materiales adicionales.
+
+
+Eficiencia de Montaje: El diseño permite que las piezas se ensamblen por encastre, asegurando que el mueble esté listo para su uso inmediatamente después del corte. Además, es totalmente desmontable para facilitar su guardado.
+DETALLES TÉCNICOS Y RESISTENCIA
+
+
+Estándares Ergonómicos: El diseño se ajustó a los estándares de morfología humana para asegurar una postura correcta y segura para niños.
+
+
+Capacidad de Carga: Se realizaron pruebas de flexión y resistencia al corte para validar que la superficie flexible soporte el peso del usuario de manera segura.
+
+
+Acabado Directo: La propuesta considera el corte CNC como etapa final de terminación, aprovechando la precisión del mecanizado para obtener bordes limpios y listos para el montaje manual.
+SOFTWARE Y HERRAMIENTAS // GALERÍA
+Desarrollo de optimización de corte y simulación de ensambles:
+
+
+Modelado y Vectorización: Autodesk Fusion 360 / Adobe Illustrator.
+
+
+Fabricación: Control numérico computarizado (CNC de 2 ejes).
+
+
+Estudio Morfológico: Basado en estándares de antropometría infantil.
+Nota: Este proyecto destaca por la transformación de un material rígido (MDF) en superficies elásticas mediante geometría, un excelente ejemplo de diseño inteligente aplicado a la fabricación digital. ¿Continuamos con el siguiente?
+
+

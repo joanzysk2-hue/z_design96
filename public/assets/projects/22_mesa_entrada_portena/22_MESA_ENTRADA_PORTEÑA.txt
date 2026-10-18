@@ -1,0 +1,10 @@
+REF: M-22 // 2026
+22_MESA_ENTRADA_PORTEÑA
+CATEGORÍA: DISEÑO DE MOBILIARIO Y ESPACIOS RESIDENCIALES
+Propuesta de diseño para mesa de entrada en una vivienda, concebida específicamente como recibidor para espacios angostos. El proyecto explora una propuesta formal y estética basada en la diversificación de acabados manteniendo una misma estructura y la combinación de materiales.
+CONCEPTO Y MORFOLOGÍA La idea principal de este proyecto es la combinación entre terminaciones en laminados de madera y acero.
+Profundidad y Movimiento: Se genera un juego volumétrico a partir de los perfiles rectangulares de acero que conforman las patas. Estos elementos poseen exactamente el mismo espesor que las molduras que recubren y rodean el cuerpo del mobiliario, logrando una mayor percepción de profundidad, dinamismo y diferencias de altura entre los planos.
+Funcionalidad Residencial: El formato estilizado y alargado optimiza el espacio de recibidor en pasillos o áreas de ingreso reducidas, integrando cajoneras frontales de apertura fluida.
+RESUMEN DE CARPETA El diseño equilibra la calidez de la superficie superior de madera con la rigidez industrial de la estructura metálica inferior. Esta combinación de materiales permite múltiples variantes de acabado sin alterar el esquema constructivo base, ofreciendo una solución versátil y elegante para el hábitat contemporáneo.
+SOFTWARE Y HERRAMIENTAS // GALERÍA Modelado volumétrico, simulación de uniones y despiece técnico en Autodesk Fusion 360, con generación de renderizado 3D e iluminación en KeyShot
+

@@ -1,0 +1,8 @@
+REF: M-05 // 2024
+05_ALACENA_EXTERIOR_PARRILLA
+CATEGORÍA: INTEGRACIÓN ESTÉTICA Y CARPINTERÍA TÉCNICA
+Proyecto de ampliación para sector de parrilla o quincho exterior, centrado en la creación de dos nuevos módulos de alacena superior. El objetivo principal fue mantener la coherencia visual y la estética preexistente del mobiliario, logrando una transición imperceptible entre los elementos nuevos y los originales.
+RESUMEN DE CARPETA Se fabricaron puertas en madera maciza (madera a definir) mediante un proceso de desbaste y rebaje técnico. Este trabajo generó una visual de madera alistonada de doble altura con canaletas de 1 cm de profundidad por 1 cm de ancho. Los módulos cuentan con un interior en melamina blanca de alta resistencia y están rematados con tiradores de aluminio en una sola pieza, dispuestos tanto en sentido vertical como horizontal para una funcionalidad ergonómica.
+SOFTWARE Y HERRAMIENTAS // GALERÍA
+Desarrollo técnico de carpintería, relevamiento de obra para integración estética y renders de previsualización del conjunto final.
+

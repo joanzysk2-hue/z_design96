@@ -1,0 +1,15 @@
+REF: D-06 // 2026
+06_DIVISOR_ESTUDIO_AUTOPORTANTE
+CATEGORÍA: MOBILIARIO AUTOPORTANTE Y MODULARIDAD ADAPTATIVA
+Proyecto de alta complejidad técnica diseñado bajo las restricciones de la emergencia sanitaria global (COVID-19), lo que impidió la toma de mediciones presenciales. La propuesta resuelve la división de un monoambiente mediante un sistema de mobiliario autoportante de gran formato, eliminando cualquier tipo de fijación a muros, suelo o techo, y priorizando una logística de pre-ensamblado para minimizar tiempos de montaje en obra.
+RESUMEN DE CARPETA
+Se desarrolló una estructura dual que funciona como biblioteca geométrica irregular y unidad de almacenamiento masivo. El sistema de anclaje utiliza patas regulables de alta presión que comprimen el mueble entre suelo y techo, alineado mediante zócalos y regletas de ajuste. Para la segregación de espacios, se integró un sistema de puertas correderas tipo "Granero" con bloqueo de seguridad. Estéticamente, el proyecto combina el enchapado en madera de Paraíso brillante con exteriores en blanco, logrando un aislamiento visual y sonoro efectivo entre las nuevas áreas.
+EVOLUCIÓN DEL PROYECTO // ANEXO HOME-OFFICE
+A solicitud del cliente, se integró un módulo de trabajo abatible sobre el panel trasero del armario. Esta solución optimiza el espacio de entrada (palier) sin invadir el área de circulación:
+Configuración: Escritorio de 700 mm de ancho con sistema de apertura reforzada.
+Capacidad: Volumen cerrado de solo 12 cm de profundidad que, al abrirse, ofrece una superficie útil de 60 cm para monitor, periféricos y gestión de cableado oculto.
+Acabados: Fusión de melamina blanca, madera de Paraíso natural y detalles en madera lacada negra.
+SOFTWARE Y HERRAMIENTAS // GALERÍA
+Diseño paramétrico basado en fotogrametría y escalas proporcionadas por el usuario; planimetría técnica para ensamblaje modular. Fusion 360, carpinteria y modulación 
+
+

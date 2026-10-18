@@ -1,0 +1,11 @@
+REF: V-01 // 2024
+01_VANITORY_CONS
+
+CATEGORÍA: MORFOLOGÍA GEOMÉTRICA  
+Propuesta de diseño para mobiliario de baño basada en una estructura geométrica pura y el juego de líneas. El concepto busca interactuar con la iluminación ambiental para generar proyecciones dinámicas de luces y sombras sobre sus superficies.  
+
+RESUMEN DE CARPETA
+Este proyecto optimiza el uso de espacios reducidos, definiendo un volumen compacto de 50 cm x 50 cm x 75 cm de altura final. La intención técnica es generar sombras muy marcadas mediante la utilización de molduras cuadradas en su perímetro, aportando relieve y profundidad al conjunto.  
+
+SOFTWARE Y HERRAMIENTAS // GALERÍA
+Modelado y desarrollo técnico realizado en Autodesk Fusion 360 con renderizado fotorrealista en KeyShot.  

@@ -1,0 +1,18 @@
+REF: C-10 // 2026
+10_C_PINK
+CATEGORÍA: OPTIMIZACIÓN DE ESPACIOS REDUCIDOS Y ERGONOMÍA
+El "Proyecto Pink" presenta una solución integral para una cocina configurada en U dentro de un área limitada. El objetivo principal fue la maximización del espacio disponible, otorgando absoluta prioridad a la comodidad del usuario sin sacrificar la coherencia estética.
+CONFIGURACIÓN Y EQUIPAMIENTO
+Para resolver las necesidades de almacenamiento y flujo de trabajo en metros cuadrados reducidos, se integraron elementos de alta funcionalidad:
+Módulos en Columna: Se diseñó un frente vertical que centraliza la columna de horno y microondas, junto con un área de despensa.
+Soluciones de Esquina: Uso de esquineros extraíbles para garantizar el acceso total a zonas que habitualmente quedan inutilizadas en las cocinas en U.
+Área de Cocción: Zona equipada con placa de inducción y una campana decorativa en tono rosa pastel, elemento que da nombre al proyecto y actúa como foco de contraste visual.
+DETALLES ESTÉTICOS Y MATERIALES
+Acabados: Los frentes presentan una textura de cemento o piedra gris mate, que contrasta con la encimera y el salpicadero de mármol blanco con veteado gris.
+Sistemas de Apertura: Integración de uñeros en acero inoxidable, eliminando tiradores prominentes para favorecer la circulación en el espacio estrecho.
+Iluminación: Se observa iluminación LED bajo los armarios superiores para mejorar la visibilidad en las superficies de trabajo.
+SOFTWARE Y DESARROLLO TÉCNICO
+El proyecto fue gestionado a través de herramientas avanzadas de diseño y fabricación para asegurar la precisión milimétrica necesaria en espacios pequeños:
+Modelado y Planimetría: Autodesk Inventor, Autodesk Fusion 360 y Autodesk AutoCAD.
+Visualización y Gráfica: Adobe Illustrator y KeyShot.
+

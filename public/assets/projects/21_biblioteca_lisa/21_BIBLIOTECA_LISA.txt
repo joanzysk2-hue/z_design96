@@ -1,0 +1,12 @@
+REF: B-21 // 2024
+21_BIBLIOTECA_LISA
+CATEGORÍA: DISEÑO DE MOBILIARIO Y SISTEMAS ENCASTRABLES
+Proyecto de conjunto de mobiliario de estudio compuesto por una estantería mural y un escritorio integrado, optimizado para espacios de trabajo contemporáneos.
+CONCEPTO Y MORFOLOGÍA
+El diseño busca la calidez y la ligereza visual mediante la combinación de madera y superficies de líneas puras:
+Estantería Mural: Estructura modular de soporte vertical y baldas horizontales fabricadas en madera contrachapada con acabado lacado brillante. El sistema está pensado para un armado por encastre que prescinde de elementos de fijación visibles, logrando un aspecto limpio y flotante.
+Escritorio Integrado: Superficie de trabajo con acabado lacado en blanco, complementada por un módulo de cajonera lateral de cuatro gavetas que aporta robustez y capacidad de guardado.
+RESUMEN DE CARPETA La propuesta equilibra la textura natural y el brillo de la madera de la biblioteca superior con la neutralidade geométrica del escritorio blanco inferior. Se priorizó la modularidad, la resistencia estructural y una estética minimalista adaptada al uso diario de estudio u oficina.
+SOFTWARE Y HERRAMIENTAS // GALERÍA
+Modelado volumétrico, optimización de despiece y simulación de ensambles en Autodesk Fusion 360 y renderizado de acabados superficiales en KeyShot.
+

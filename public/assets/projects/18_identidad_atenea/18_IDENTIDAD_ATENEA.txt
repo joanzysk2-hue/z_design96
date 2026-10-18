@@ -1,0 +1,27 @@
+REF: BR-18 // 2026
+18_IDENTIDAD_ATENEA
+
+CATEGORÍA: DISEÑO DE IDENTIDAD VISUAL Y BRANDING
+
+Desarrollo de propuesta de logotipo e isotipo para una marca profesional enfocada en el sector de la comunicación social. La construcción conceptual toma como eje la figura de Atenea, diosa griega de la sabiduría, la estrategia y la inteligencia, traduciendo estos valores en un sistema visual sintético, contemporáneo y altamente adaptable a diversos soportes analógicos y digitales.
+
+RESUMEN DE CARPETA
+
+El isotipo se configura mediante una abstracción geométrica de la letra "A" mayúscula, formada por dos líneas estructurales que convergen en un mismo eje central. La propuesta elimina deliberadamente el travesaño horizontal de la "A", permitiendo que sea la tipografía del nombre completo (Atenea Airlia) la que complete la lectura y genere la base del conjunto visual. La paleta cromática utiliza degradados dinámicos en tonos violetas, amarillos, naranjas y dorados, proyectando calidez y energía. Asimismo, el símbolo fue optimizado para mantener perfecta legibilidad y fuerza gráfica en sus versiones monocromáticas (blanco y negro).
+
+Claves del desarrollo de marca:
+
+Concepto e Isotipo: Inspirado en Atenea (diosa de la estrategia y la sabiduría), el símbolo abstrae la letra "A" mediante dos trazos convergentes sin línea horizontal, creando una forma liviana y memorable donde el nombre completo actúa como anclaje visual.
+
+
+Cromatismo y Gradientes: Una transición de color en tonos violeta, naranja, amarillo y dorado que transmite dinamismo, creatividad y fluidez en medios digitales.
+
+
+Legibilidad y Monocromía: Rigor geométrico que garantiza un funcionamiento óptimo tanto en degradados complejos como en aplicaciones monocromáticas en blanco y negro.
+
+
+Un sistema de comunicación gráfica pensado para adaptarse a las exigencias de un mercado dinámico sin perder su esencia conceptual.
+
+SOFTWARE Y HERRAMIENTAS // GALERÍA
+Vectorización y retícula geométrica en Adobe Illustrator, composición cromática en Adobe Photoshop y desarrollo de guía de aplicación de marca en Adobe InDesign.
+

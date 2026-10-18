@@ -1,0 +1,8 @@
+﻿REF: MR-30 // 2025
+30_MOTO_REPUESTO
+CATEGORÍA: DISEÑO INDUSTRIAL Y MECÁNICA
+Pieza de repuesto y optimización de componente mecánico para motocicleta, rediseñada para mayor durabilidad y menor peso.
+RESUMEN DE CARPETA
+Ingeniería inversa y optimización de forma para manufactura aditiva y mecanizado CNC de aleación ligera.
+SOFTWARE Y HERRAMIENTAS // GALERÍA
+Escaneo 3D, CAD paramétrico en Fusion 360 y simulaciones de esfuerzo.

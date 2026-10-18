@@ -1,0 +1,21 @@
+REF M-07  2026
+07_MESA_DE_LUZ_TUB
+CATEGORÍA MOBILIARIO EXPERIMENTAL E INTEGRACIÓN MATERIAL
+Este proyecto explora la convergencia entre la calidez de la madera y la rigidez estructural del metal, centrándose en una mesa de noche funcional. La premisa fundamental fue lograr una integración de materiales que evite el uso de herrajes convencionales para su ensamblaje y funcionamiento.
+CONCEPTO Y ESTRUCTURA
+La propuesta se basa en un diseño minimalista donde el metal actúa como el esqueleto que sostiene y suspende los volúmenes de madera.
+Diseño Presenta una estética geométrica pura con una tapa superior de madera clara y un cuerpo de cajón en madera con veta más marcada.
+Integración El sistema busca prescindir de guías metálicas externas o tiradores complejos, utilizando la propia morfología del mueble para su operatividad.
+Dimensiones El diseño se inscribe en un formato compacto de 40 cm x 40 cm.
+DETALLES TÉCNICOS
+Cuerpo Módulo de almacenamiento con cajón integrado, montado sobre una estructura de perfiles metálicos negros.
+Acabados Contraste entre maderas naturales y metal lacado, enfatizando la honestidad de los materiales utilizados.
+Soporte Patas esbeltas que elevan el volumen, otorgando una sensación de ligereza visual al conjunto.
+HABILIDADES Y ENTREGABLES
+El desarrollo del proyecto incluyó el ciclo completo de diseño industrial
+Modelado 3D Creación de la geometría compleja y ensambles.
+Carpintería Técnica Definición de encuentros madera-metal.
+Renderizado 3D (KeyShot) Generación de visualizaciones fotorrealistas con diversas estéticas y acabados para validación de diseño.
+Documentación Planimetría detallada y cortes técnicos (A-A, detalle C) para fabricación.
+
+

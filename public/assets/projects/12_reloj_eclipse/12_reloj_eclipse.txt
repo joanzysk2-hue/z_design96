@@ -1,0 +1,8 @@
+﻿REF: R-12 // 2021
+12_RELOJ_ECLIPSE
+CATEGORÍA: OBJETOS / DECORACIÓN
+Reloj de pared conceptual inspirado en el fenómeno astronómico del eclipse y la intersección de planos de luz.
+RESUMEN DE CARPETA
+Pieza de autor que fusiona geometría circular minimalista, contraste de sombras proyectadas y movimiento continuo silencioso.
+SOFTWARE Y HERRAMIENTAS // GALERÍA
+Modelado en Fusion 360 y corte láser de precisión.

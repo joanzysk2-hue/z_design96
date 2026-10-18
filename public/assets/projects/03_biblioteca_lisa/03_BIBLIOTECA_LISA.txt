@@ -1,0 +1,16 @@
+03_BIBLIOTECA_LISA
+CATEGORÍA: MOBILIARIO DE AUTOR Y SISTEMAS ESTRUCTURALES DESMONTABLES
+Desarrollo de biblioteca abierta de gran formato diseñada para generar una percepción visual de pieza suspendida ("levitante"). El proyecto prioriza la arquitectura de la línea horizontal y la auto-sustentabilidad estructural, combinando la calidez del enchapado de Paraíso con un sistema de encastres de alta precisión que permite su montaje y desmontaje para adaptarse a distintos espacios.
+RESUMEN DE CARPETA La pieza está fabricada en MDF de alta densidad enchapado en Paraíso con acabado en hidrolaca brillante al espejo, manteniendo la prominencia de la veta natural. Su construcción prescinde de fijaciones externas visibles gracias a un sistema de encastres a media madera reforzado con entarugado interno. La estructura se consolida mediante tres fajas horizontales rebajadas, encoladas y atornilladas que conforman un soporte autoportante y casi oculto. Su diseño no solo jerarquiza el muro como contenedor cultural, sino que su plano inferior está proyectado ergonómicamente para funcionar como estación o escritorio de trabajo diario.
+ESPECIFICACIONES TÉCNICAS
+Materialidad Base: Tablero de MDF de alta densidad.
+Acabado y Terminación: Enchapado en madera natural de Paraíso con pulido en hidrolaca brillante efecto espejo.
+Ensamblaje y Estructura: Encastres a media madera, entarugado de refuerzo y fajas horizontales mecanizadas.
+Sistema Constructivo: Estructura autosustentable, autoportante y 100% desmontable.
+Polivalencia Funcional: Integración de biblioteca de almacenamiento vertical y plano de trabajo/escritorio de alta resistencia.
+SOFTWARE Y HERRAMIENTAS // GALERÍA
+Desarrollo de encastres para fabricación, optimización de despiece y cálculo de transferencia de cargas estructurales. 
+Fusion 360
+
+
+

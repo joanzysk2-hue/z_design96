@@ -1,0 +1,22 @@
+19_LÁMPARA_MOEBIUS
+CATEGORÍA: DISEÑO DE ILUMINACIÓN Y CINEMÁTICA MORFOLÓGICA
+Proyecto de luminaria interactiva basado en la exploración geométrica y la continuidad topológica de la cinta de Moebius. La propuesta investiga la transición entre la bidimensionalidad percibida y la tridimensionalidad dinámica, utilizando el movimiento mecánico para graduar la intensidad lumínica y transformar la silueta del objeto en tiempo real.
+RESUMEN DE CARPETA El objeto se compone de un cuerpo cilíndrico seccionado atravesado por un eje o asa vertical que actúa como centro de control y rotación. A través de un sistema de rotación graduado por niveles, cada incremento angular activa secuencialmente un nuevo anillo de iluminación LED, expandiendo de manera progresiva el rango lumínico, el flujo y el brillo. La cinemática del mecanismo modifica las vistas frontales y laterales de la pieza, alterando su morfología continua y simulando el recorrido infinito y fluido característico de una superficie de Moebius.
+ESPECIFICACIONES TÉCNICAS
+Mecanismo de Interacción: Control rotacional por eje vertical con graduación por niveles cinemáticos.
+Sistema de Iluminación: Anillos LED independientes activados de forma secuencial con la rotación del cuerpo.
+Morfología y Geometría: Estructura cilíndrica seccionada con variación de silueta y perspectiva dinámica en 3D.
+Control de Flujo Lumínico: Regulación de intensidad y cobertura espacial mediante la expansión física de la pieza.
+SOFTWARE Y HERRAMIENTAS // GALERÍA
+Modelado paramétrico y simulación de mecanismos en Autodesk Fusion 360. Renderizado fotorrealista, estudio de iluminación y física de materiales en KeyShot.
+VERSION PARA RR.SS. (INSTAGRAM / LINKEDIN / PORTFOLIO)
+Cinemática, topología y luz: La experiencia dinámica de Lámpara Moebius. 💡🌀
+Presento la Lámpara Moebius, un objeto de iluminación interactivo que explora los límites entre la escultura cinemática y la funcionalidad técnica. Inspirada en la continuidad infinita de la cinta de Moebius, esta luminaria transforma su silueta tridimensional a medida que el usuario interactúa con su estructura.
+Claves del desarrollo: 🔹 Mecanismo de Rotación: Un eje vertical atraviesa el cuerpo cilíndrico seccionado, permitiendo alternar entre distintos niveles mecánicos de apertura. 🔹 Iluminación Progresiva: Cada posición de giro enciende secuencialmente un nuevo anillo de luz, ampliando el rango, la intensidad y la cobertura del flujo luminoso. 🔹 Morfología Evolutiva: La pieza altera sus proporciones y su perspectiva visual durante el movimiento, generando la percepción de una cinta en constante transformación 3D.
+Un diseño donde la luz no solo ilumina, sino que se convierte en el motor de la transformación geométrica del objeto.
+#LightingDesign #IndustrialDesign #ProductDesign #Fusion360 #KeyShot #Moebius #KineticDesign #Luminaria #DiseñoIndustrial #LightingConcept #InteractiveDesign
+
+
+
+
+

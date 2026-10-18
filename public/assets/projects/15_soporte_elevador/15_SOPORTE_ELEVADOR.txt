@@ -1,0 +1,21 @@
+REF: S-15 // 2026
+15_SOPORTE_ELEVADOR
+CATEGORÍA: SUPRACLICLAJE (UPCYCLING) Y FABRICACIÓN ADITIVA
+Este proyecto propone una solución de doble altura para estantes de sobremesa, utilizando la impresión 3D como herramienta para dar una segunda vida al frente de una gaveta de IKEA. La intervención transforma un componente de mobiliario estándar en un soporte funcional de alta resistencia para equipos tecnológicos de gran formato.
+CONCEPTO Y ESTRUCTURACIÓN
+El diseño fue condicionado por las dimensiones y el peso crítico del hardware (portátil de 3.5 kg), priorizando la estabilidad mecánica y la integridad estructural:
+ * Distribución de Cargas: Se aplicó una lógica de estructuración simple con diagonales no mayores a 45°, optimizando la transferencia de fuerzas hacia el eje vertical.
+ * Sistema de Anclaje: La fijación a la superficie de trabajo se resuelve mediante un sistema de cuñas, lo que permite un anclaje sólido y seguro sin necesidad de perforaciones permanentes.
+ * Lógica Funcional: El soporte eleva el plano de trabajo, mejorando la ergonomía y permitiendo el aprovechamiento del espacio inferior.
+ESPECIFICACIONES DE FABRICACIÓN (3D)
+La pieza fue diseñada considerando las propiedades anisotrópicas de la impresión 3D para maximizar su durabilidad:
+ * Orientación de Impresión: Las piezas se imprimieron de forma plana/lateral. Esto asegura que las capas de material queden en paralelo a las fuerzas de carga, evitando el cizallamiento entre estratos.
+ * Configuración de Relleno: Se utilizó un patrón de relleno tipo Giroide al 8% (infill), que ofrece una excelente relación peso-resistencia en todas las direcciones.
+ * Materialidad: Optimización de paredes exteriores para soportar la presión vertical del equipo de 3.5 kg.
+SOFTWARE Y HERRAMIENTAS // GALERÍA
+Desarrollo técnico orientado a la fabricación digital:
+ * Modelado 3D: Autodesk Fusion 360 (Diseño de piezas y ensambles de cuña).
+ * Slicing: Ultimaker Cura / PrusaSlicer (Optimización de orientación y relleno giroide).
+ * Hardware: Impresora 3D FDM.
+Nota: Este proyecto es un excelente ejemplo, donde la ingeniería de impresión 3D soluciona una necesidad ergonómica específica. 
+
