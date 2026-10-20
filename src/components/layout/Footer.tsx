@@ -114,8 +114,8 @@ export const Footer = () => {
           <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginTop: '8px' }}>© 2026 DESIGNED BY ANDY IA / JOAN Z.</p>
         </div>
         <div style={{ display: 'flex', gap: '25px' }}>
-          <a href="#" target="_blank" rel="noreferrer" title="Instagram" style={{ color: 'var(--text-secondary)', transition: 'color 0.3s' }} onMouseOver={(e) => e.currentTarget.style.color = 'var(--text-primary)'} onMouseOut={(e) => e.currentTarget.style.color = 'var(--text-secondary)'}><Instagram size={20} /></a>
-          <a href="#" target="_blank" rel="noreferrer" title="LinkedIn" style={{ color: 'var(--text-secondary)', transition: 'color 0.3s' }} onMouseOver={(e) => e.currentTarget.style.color = 'var(--text-primary)'} onMouseOut={(e) => e.currentTarget.style.color = 'var(--text-secondary)'}><Linkedin size={20} /></a>
+          <a href="https://www.instagram.com/z_design96/" target="_blank" rel="noreferrer" title="Instagram" style={{ color: 'var(--text-secondary)', transition: 'color 0.3s' }} onMouseOver={(e) => e.currentTarget.style.color = 'var(--text-primary)'} onMouseOut={(e) => e.currentTarget.style.color = 'var(--text-secondary)'}><Instagram size={20} /></a>
+          <a href="https://www.linkedin.com/in/joan-zyskindowicz-aa1307188/" target="_blank" rel="noreferrer" title="LinkedIn" style={{ color: 'var(--text-secondary)', transition: 'color 0.3s' }} onMouseOver={(e) => e.currentTarget.style.color = 'var(--text-primary)'} onMouseOut={(e) => e.currentTarget.style.color = 'var(--text-secondary)'}><Linkedin size={20} /></a>
           <a href="mailto:joanzysk2@gmail.com" title="Email" style={{ color: 'var(--text-secondary)', transition: 'color 0.3s' }} onMouseOver={(e) => e.currentTarget.style.color = 'var(--text-primary)'} onMouseOut={(e) => e.currentTarget.style.color = 'var(--text-secondary)'}><Mail size={20} /></a>
         </div>
       </div>
