@@ -40,9 +40,9 @@ export const Footer = () => {
   return (
     <footer ref={containerRef} id="contact-simple" style={{ position: 'relative', overflow: 'hidden', borderTop: '1px solid var(--border-color)', background: 'var(--bg-panel)' }}>
       {/* Background World Map */}
-      {/* Ajustado: scale reducido a 190, manteniendo top a 40px */}
-      <div style={{ position: 'absolute', top: '40px', left: 0, width: '100%', height: 'calc(100% - 40px)', opacity: 0.08, pointerEvents: 'none', zIndex: 0 }}>
-        <ComposableMap projectionConfig={{ scale: 190 }}>
+      {/* Ajustado: centrado en el Atlántico (España y Argentina) con escala equilibrada */}
+      <div style={{ position: 'absolute', top: '10px', left: 0, width: '100%', height: 'calc(100% - 10px)', opacity: 0.12, pointerEvents: 'none', zIndex: 0 }}>
+        <ComposableMap projectionConfig={{ scale: 220, center: [-30, 5] }}>
           <Geographies geography={geoUrl}>
             {({ geographies }: any) =>
               geographies.map((geo: any) => (
